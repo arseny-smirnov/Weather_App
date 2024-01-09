@@ -1,12 +1,11 @@
 import React from 'react';
 import {useTranslation} from "react-i18next";
+import {SearchLocation} from "pages/MainPage/SearchLocation";
 
 const MainPage = () => {
-    const {t} = useTranslation('main')
-
     return (
         <div>
-            {t('Основное')}
+            <SearchLocation />
         </div>
     );
 };

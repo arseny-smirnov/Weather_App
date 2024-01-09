@@ -1,3 +1,7 @@
 {
-  "Основное": "Main"
+  "Основное": "Main",
+  "Поиск": "Search",
+  "Введите населенный пункт": "Enter your location",
+  "Текущая температура воздуха": "Current temperature",
+  "Ошибка выполнения запроса": "Request execution error"
 }
