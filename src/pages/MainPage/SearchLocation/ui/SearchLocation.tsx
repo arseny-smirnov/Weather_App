@@ -10,7 +10,7 @@ interface SearchLocationProps {
     className?: string
 }
 
-export const SearchLocation: React.FC<SearchLocationProps> = ({className}) => {
+export const SearchLocation: React.FC<SearchLocationProps> = () => {
     const {t} = useTranslation('main')
 
     const [inputState, setInputState] = useState('')
